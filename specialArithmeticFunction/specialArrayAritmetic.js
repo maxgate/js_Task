@@ -1,20 +1,5 @@
 // Write a JavaScript function that takes an array and return an object containing the sum, average, total number in the array, the Midian of the numbers, the maximum and minimum number, reverse the number.
-// Eg:
-// function specialArrtimatoc([2,4,6,8,10,12){
 
-// Return {
-
-// sum:20,
-// average:6,
-
-// Middian:8,
-// max: 12
-// min: 2,
-// reverse:[12,10,8,6,4,2]
-
-// }
-
-// }
 
 const arrayFunction = function (arr) {
   // check if the array is empty
