@@ -14,7 +14,20 @@
   background-color: rgb(241, 245, 245);
   box-shadow: -5px 5px 12px rgb(213, 22, 22);
 }
-
+.screen {
+  padding: 20px;
+  margin-top: 30px;
+  margin-left: 30%;
+  margin-bottom: 10px;
+  width: 50%;
+  height: 60px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  /* color: white; */
+  border-style: solid;
+  box-shadow: -1px 3px 8px rgb(213, 22, 22);
+}
 .Principal {
   display: flex;
   align-items: center;
@@ -54,7 +67,7 @@ input {
 div > input {
   margin-bottom: 5%;
   margin-right: 5px;
-  font-size: 16px;
+  font-size: 20px;
   padding: 20px;
   width: 50%;
 
@@ -85,6 +98,7 @@ div > p {
   background-color: green;
   color: white;
   border-style: none;
+  cursor: pointer;
 }
 
 .clear {
@@ -96,4 +110,5 @@ div > p {
   color: rgb(255, 255, 255);
   background-color: rgb(96, 99, 103);
   border-style: none;
+  cursor: pointer;
 }
