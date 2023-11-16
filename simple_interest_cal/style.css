@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.containter {
+  /* display: flex; */
+  width: 50%;
+  align-items: center;
+  margin: 20vh;
+  /* border-style: solid; */
+  border-width: 4px;
+  background-color: rgb(241, 245, 245);
+  box-shadow: -5px 5px 12px rgb(213, 22, 22);
+}
+
+.Principal {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  /* flex-direction: row; */
+  margin: 10px;
+  /* padding: 5px; */
+}
+.Principal > input {
+  margin-right: 24%;
+  margin-top: 20px;
+  width: 80%;
+}
+input {
+  margin-left: 10px;
+  padding: 10px;
+  width: 50%;
+}
+.interest {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin: 10px;
+  /* padding: 5px; */
+}
+
+.term {
+  display: flex;
+  margin: 10px;
+  justify-items: center;
+  align-items: center;
+  /* padding: 5px; */
+}
+.short {
+  margin-right: 100px;
+}
+div > input {
+  margin-bottom: 5%;
+  margin-right: 5px;
+  font-size: 16px;
+  padding: 20px;
+  width: 50%;
+
+  box-shadow: 0 0 10px black;
+  /* box-shadow: -5px 5px 1px black; */
+
+  /* height: 100%; */
+}
+div > p {
+  font-size: 25px;
+  padding: 20px;
+  width: 50%;
+}
+
+.btn {
+  /* border-style: dotted; */
+  /* width: 20vh; */
+  padding: 20px;
+  margin-left: 30%;
+  margin-bottom: 10px;
+}
+.cal {
+  width: 50%;
+  height: 60px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: green;
+  color: white;
+  border-style: none;
+}
+
+.clear {
+  width: 30%;
+  height: 60px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: rgb(96, 99, 103);
+  border-style: none;
+}
