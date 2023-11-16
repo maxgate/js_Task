@@ -1,5 +1,3 @@
-"use strict";
-
 const principalInput = document.querySelector(".principal_input");
 const calculate = document.querySelector(".cal");
 const interestInput = document.querySelector(".interest_input");
@@ -7,7 +5,7 @@ const termInput = document.querySelector(".term_input");
 const display = document.querySelector(".screen");
 const clear = document.querySelector(".clear");
 
-const simpleInt = function () {
+const simpleInt = () => {
   // let p, i, t;
   // principalInput.value = p;
   // interestInput.value = i;
@@ -22,9 +20,9 @@ const clearScreen = clear.addEventListener("click", function () {
   principalInput.value = "";
   interestInput.value = "";
   termInput.value = "";
-  display.value = "screen";
+  display.value = "";
 });
 
 calculate.addEventListener("click", (e) => {
-  display.value = Number(simpleInt());
+  display.value = simpleInt();
 });
