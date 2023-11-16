@@ -16,7 +16,6 @@ const simpleInt = () => {
 };
 
 const clearScreen = clear.addEventListener("click", function () {
-  console.log("cleared");
   principalInput.value = "";
   interestInput.value = "";
   termInput.value = "";
