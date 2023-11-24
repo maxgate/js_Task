@@ -10,12 +10,13 @@ const simpleInt = () => {
   // principalInput.value = p;
   // interestInput.value = i;
   // termInput.value = t;
-  return Number(
-    (principalInput.value * interestInput.value * termInput.value) / 100
+  return +(
+    (principalInput.value * interestInput.value * termInput.value) /
+    100
   );
 };
 
-const clearScreen = clear.addEventListener("click", function () {
+const clearScreen = clear.addEventListener("click", () => {
   principalInput.value = "";
   interestInput.value = "";
   termInput.value = "";
