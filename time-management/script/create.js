@@ -1,21 +1,21 @@
 const createSchedule = (item) => {
   const displaySchedule = document.querySelector(".display");
   const html = `
-  <section>
-    <div class="container-fluid mx-5 justify-content-around small">
-      <div class="col-2 rounded-top shadow text-center text-light pt-1 pb-1" style="background-color:   #6664c2">
-        ${item.time_manager_title}
-      </div>
-    </div>
-    <!--  -->
-    <div class=" container-fluid mx-5 text-center small fst-italic justify-content-around">
-        <div class="col-2 bg-light rounded-bottom shadow small pt-3 pb-2">
-          ${item.time_manager_message}
+  <div class="container-fluid justify-content-around small">
+          <div
+            class="col-2 rounded-top shadow text-center text-light pt-1 pb-1"
+            style="background-color: #6664c2"
+          >
+          
+            ${item.time_manager_title}
+          </div>
+          <div class="col-2 bg-light rounded-bottom shadow text-center small pt-3 pb-2">
+            ${item.time_manager_message}
+          </div>
         </div>
-    </div>
-</section>`;
+`;
 
-  displaySchedule.insertAdjacentHTML("afterend", html);
+  displaySchedule.insertAdjacentHTML("beforeEnd", html);
 };
 
 function createTodosStoragse() {
