@@ -1,15 +1,14 @@
 const createSchedule = (item) => {
   const displaySchedule = document.querySelector(".display");
   const html = `
-  <div class="container-fluid justify-content-around small">
+  <div class="container-xxl justify-content-around align-content-center pt-5 col-4 small">
           <div
-            class="col-2 rounded-top shadow text-center text-light pt-1 pb-1"
+            class="col-md-2 col-lg-4  rounded-top shadow text-center text-light pt-1 pb-1"
             style="background-color: #6664c2"
-          >
-          
+          >          
             ${item.time_manager_title}
           </div>
-          <div class="col-2 bg-light rounded-bottom shadow text-center small pt-3 pb-2">
+          <div class="col-md-2 col-lg-4  bg-light rounded-bottom shadow text-center small pt-3 pb-2">
             ${item.time_manager_message}
           </div>
         </div>
